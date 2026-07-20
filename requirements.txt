@@ -1,0 +1,9 @@
+beanie==2.0.0
+fastapi==0.139.2
+pandas==3.0.3
+pydantic==2.13.4
+pydantic-settings==2.14.2
+pymongo==4.17.0
+pytest==9.0.2
+python-dotenv==1.2.2
+uvicorn==0.51.0

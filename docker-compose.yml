@@ -1,0 +1,11 @@
+services:
+  mongodb:
+    image: mongo:8
+    container_name: economic-group-mongodb
+    restart: unless-stopped
+
+    ports:
+      - "27017:27017"
+
+    environment:
+      MONGO_INITDB_DATABASE: sicredi
